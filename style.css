@@ -2,12 +2,20 @@
 body {
     margin: 0;
 }
+/*Styles for text, h1 through h6, including p*/
 h1 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
 }
 #title {
     text-transform: uppercase;
+}
+p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+#p {
+    max-width: 600px;
 }
 h2 {
     text-align: center;
@@ -25,10 +33,12 @@ h5 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
 }
+/*Specific styling for orange text p*/
 #orange {
     color: #EC910E;
     text-align: center;
 }
+/*Navigation bar styling*/
 nav.primary {
     background-color: #000000;
     padding: 16px;
@@ -41,6 +51,7 @@ nav.primary ul {
     margin: 0 auto;
     width: 500px   
 }
+/*Secondary navigation bar styling on About Page*/
 nav.secondary {
     padding: 30px 30px 0px 30px;
 }
@@ -59,12 +70,8 @@ a {
     font-size: 24px;
     font-family: "Open Sans", sans-serif;
 }
-#bw {
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
+
+/*Circles*/
 .dot {
     height: 10px;
     width: 10px;
@@ -78,6 +85,13 @@ a {
     width: 5px;
     background-color: #000000;
     margin: 45px 8px 8px 5px;
+}
+/*Images*/
+#bw {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 #cinnswirl img {
     margin: 0 auto;
@@ -104,6 +118,12 @@ a {
 .pbp {
     display: flex;
     justify-content: center;
+}
+.pbp2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 240px 10px 10px;
+    
 }
 .sg {
     padding: 50px 10px 10px 50px;
@@ -142,4 +162,15 @@ h2.origbun:after {
 }
 .black {
     color: black;
+}
+
+.pd {
+    padding: 10px;
+}
+.pdbox {
+    padding: 25px 10px 10px 10px;
+}
+.add {
+    justify-content: center;
+    margin: 10px 10px 10px 120px;
 }
