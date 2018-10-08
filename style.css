@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+#title {
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+h4 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+h5 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+#orange {
+    color: #EC910E;
+    text-align: center;
+}
+nav.primary {
+    background-color: #000000;
+    padding: 16px;
+}
+nav.primary ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 500px   
+}
+nav.secondary {
+    padding: 30px 30px 0px 30px;
+}
+nav.secondary ul {
+    display: flex;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    color: #9B9B9B;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+#bw {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color:#D8D8D8;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+#blackdot {
+    height: 5px;
+    width: 5px;
+    background-color: #000000;
+    margin: 45px 8px 8px 5px;
+}
+#cinnswirl img {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 10px 10px 70px;
+    
+}
+#cart img {
+    float: right;
+    display: block;
+    padding: 10px 50px 10px 10px;
+}
+.sb33 {
+    width: 33%;
+    display: inline-block;
+}
+.bun {
+    padding: 10px;
+}
+.star {
+    padding: 10px;
+    float: right;
+}
+.pbp {
+    display: flex;
+    justify-content: center;
+}
+.sg {
+    padding: 50px 10px 10px 50px;
+}
+#prodbun {
+    width: 500px;
+    height: 378px;
+}
+#cost {
+    color: #417505;
+}
+.line {
+    padding: 33px 10px 10px 10px;
+}
+.line2 {
+    padding: 0px 0px 10px 125px;
+    margin: 0px 10px 10px 10px;
+}
+.brothers {
+    padding: 50px 10px 0px 10px;
+    justify-content: center;
+}
+.padding0 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.origbun {
+    padding: 0px;
+    margin: 0px;
+}
+h2.origbun:after {
+    border-bottom-color: #000000;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    color: #000000;
+}
+.black {
+    color: black;
+}
